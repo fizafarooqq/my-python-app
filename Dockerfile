@@ -1,5 +1,5 @@
 # Use Python image from Docker Hub
-FROM python:3.9-slim
+FROM image-registry.openshift-image-registry.svc:5000/dis-poc-514020/python:3.9-slim
 
 # Set working directory inside container
 WORKDIR /app
